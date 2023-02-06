@@ -1,0 +1,37 @@
+{
+  "name": "ips-patcher",
+  "version": "1.0.0",
+  "description": "IPS ROM patcher library",
+  "bin": {
+    "ips-patcher": "bin/cmd.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "package.json",
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "npm run clean && npm run build",
+    "clean": "rm-cli -ss -r dist",
+    "build": "tsc",
+    "typedoc": "typedoc"
+  },
+  "author": "Mitsutaka Okazaki",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.2.0",
+    "command-line-usage": "^6.1.1",
+    "shasum": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/command-line-args": "^5.2.0",
+    "@types/command-line-usage": "^5.0.2",
+    "@types/node": "^18.11.18",
+    "@types/shasum": "^1.0.0",
+    "prettier": "^2.3.2",
+    "rm-cli": "^1.4.2",
+    "typescript": "^4.9.4"
+  }
+}

@@ -1,0 +1,4 @@
+*.rom
+*.ips
+*.bin
+node_modules/
