@@ -43,7 +43,7 @@ npm install --save ips-patcher
 ```
 
 ### Code Example
-```
+```js
 const fs = require('fs');
 const { IPSParser } = require('ips-patcher');
 
