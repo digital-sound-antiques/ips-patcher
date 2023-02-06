@@ -1,4 +1,4 @@
-# ips-patcher
+# ips-patcher [![npm version](https://badge.fury.io/js/ips-patcher.svg)](https://badge.fury.io/js/ips-patcher)
 Parse and Apply IPS binary patch format for JavaScript.
 
 - [IPS format](https://zerosoft.zophar.net/ips.php)
